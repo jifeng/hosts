@@ -1,0 +1,37 @@
+{
+  "name": "hosts",
+  "version": "0.0.1",
+  "author": "jifeng (wade428@163.com)",
+  "contributors": [
+    "jifeng <wade428@163.com>"
+  ],
+  "homepage": "https://github.com/jifeng/hosts",
+  "description": "A client library for monitor of hosts.",
+  "keywords": [
+    "hosts",
+    "monitor"
+  ],
+  "dependencies": {
+    "agentkeepalive": "=0.1.4"
+  },
+  "engines": {
+    "node": ">=0.6.6"
+  },
+  "main": "./index.js",
+  "devDependencies": {
+    "should": ">=0.4.2",
+    "mocha": ">=0.9.0",
+    "visionmedia-jscoverage": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jifeng/hosts.git"
+  },
+  "license": "MIT"
+}
